@@ -1,0 +1,8 @@
+{
+  "name": "val014-cleanroom-r6",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
