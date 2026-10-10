@@ -46,9 +46,7 @@ test("uniqueValues throws a TypeError when items is not an array", () => {
 
 test("uniqueValues does not mutate the input array", () => {
   const items = [2, 2, NaN, "a", NaN, "a"];
-  const copy = [...items];
   uniqueValues(items);
-  assert.notEqual(items, copy);
   assert.equal(items.length, 6);
   assert.equal(items[0], 2);
   assert.equal(items[1], 2);
